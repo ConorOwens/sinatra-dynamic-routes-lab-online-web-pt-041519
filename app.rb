@@ -16,7 +16,7 @@ class App < Sinatra::Base
   get '/say/:number/:phrase' do
     @num = params[:number]
     @blah = params[:phrase]
-    i = 0 
+    i = 1
     until i > @num 
       "#{@blah}"
       i+=1 
