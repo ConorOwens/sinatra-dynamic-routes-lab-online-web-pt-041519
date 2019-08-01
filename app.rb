@@ -18,7 +18,7 @@ class App < Sinatra::Base
     @blah = params[:phrase]
     i = 0
     until i > @num 
-      "#{@blah}"
+      puts "#{@blah}"
       i+=1 
     end
   end
