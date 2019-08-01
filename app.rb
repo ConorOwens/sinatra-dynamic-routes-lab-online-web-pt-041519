@@ -19,7 +19,7 @@ class App < Sinatra::Base
     @blah = params[:phrase]
     i = 0
     until i > @num 
-      str += "#{@blah}/n"
+      str += "#{@blah}\n"
       i+=1 
     end
   end
