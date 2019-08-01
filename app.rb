@@ -33,5 +33,14 @@ class App < Sinatra::Base
     @n2 = params[:number2]
     
     if @op == 'add'
+      @n1+@n2
+    elsif @op == 'subtract'
+      @n1-@n2 
+    elsif @op == 'multiply'
+      @n1*@n2 
+    elsif @op == 'divide'
+      @n1/@n2 
+    end
+  end
 
 end
