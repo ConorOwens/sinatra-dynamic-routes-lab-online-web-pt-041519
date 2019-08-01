@@ -17,7 +17,7 @@ class App < Sinatra::Base
     @num = params[:number]
     @blah = params[:phrase]
     i = 0 
-    while i < @num 
+    until i > @num 
       "#{@blah}"
       i+=1 
     end
