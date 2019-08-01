@@ -41,6 +41,7 @@ class App < Sinatra::Base
     elsif @op == 'divide'
       a = @n1/@n2 
     end
+    a.to_s
   end
 
 end
