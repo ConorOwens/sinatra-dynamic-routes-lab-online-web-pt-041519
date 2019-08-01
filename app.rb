@@ -20,7 +20,7 @@ class App < Sinatra::Base
     i = 0
     until i > @num 
       str += "#{@blah}\n"
-      i+=1 
+      i += 1 
     end
   end
   
